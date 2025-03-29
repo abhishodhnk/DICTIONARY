@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./dictionary.css" />
+    <title>Dictionary App</title>
+</head>
+<body>
+    <div class="all">
+    <audio id="sound"></audio>
+    <div class="outlet">
+    <div class="image">
+        <img src="./Dictionary-pana.png" alt="" class="newimg">
+    </div>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Search  word ..." id="myword"  required/>
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result" id="showans">
+        </div>
+    </div>
+</div>
+</div><br><br><br><br><br><br><br><br>
+<!-- Footer -->
+<footer class="footer-section">
+    <div class="footer-content">
+        <p>Copyright &copy; 2024 &nbsp;ABHISHODH NK | All Rights Reserved</p>
+    </div>
+</footer>
+<div class="d-flex justify-content-center fs-2 gap-4">
+    <a class="text-gradient" href="https://www.instagram.com/a.b.h.i.s.h.o.d.h/" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <i class="bi bi-instagram"></i>
+    </a>
+    <a class="text-gradient" href="https://www.linkedin.com/in/abhishodh-nk/" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <i class="bi bi-linkedin"></i>
+    </a>
+    <a class="text-gradient" href="mailto:abhishodhnk@gmail.com" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <i class="bi bi-envelope"></i> 
+    </a>                                        
+    <a class="text-gradient" href="https://github.com/abhishodhnk" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+        <i class="bi bi-github"></i>
+    </a><br><br>
+</div>
+<div class="wave-container">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+        <defs>
+            <path id="wave-path" d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+            <use href="#wave-path" x="50" y="3" fill="rgba(255, 255, 255, 0.3)"></use>
+        </g>
+        <g class="wave2">
+            <use href="#wave-path" x="50" y="3" fill="rgba(255, 255, 255, 0.5)"></use>
+        </g>
+        <g class="wave3">
+            <use href="#wave-path" x="50" y="3" fill="#fff"></use>
+        </g>
+    </svg>
+</div>
+    <!-- Script -->
+    <script src="./dictionary-data.js"></script>
+</body>
+</html>
