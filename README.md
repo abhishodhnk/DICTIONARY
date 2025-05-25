@@ -53,4 +53,3 @@ fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/{word}`)
 This project is open-source and available under the **MIT License**.
 
 ---
-💡 **Contributions & Feedback Welcome!** If you have any suggestions, feel free to contribute or drop a message. 😊
