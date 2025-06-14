@@ -24,9 +24,6 @@ The **Dictionary App** is a simple and interactive web application that allows u
 ├── 📄 README.md        # Documentation
 ```
 
-## 🎨 UI & Design
-The UI follows a modern **orange-gradient** theme with a search box at the center. Waves animation enhances the visual appeal at the bottom.
-
 ## 🔧 How to Use
 1. Open the **index.html** file in a browser.
 2. Type a word in the search bar.
